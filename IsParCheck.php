@@ -4,7 +4,7 @@ class IsParCheck
  
     public function check($a): bool
     {
-        return ($a % 2 == 1);
+        return ($a % 2 == 0);
     }
 
  
